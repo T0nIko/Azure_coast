@@ -183,15 +183,31 @@ body {
 .map-image {
   width: 100%;
   height: 100%;
+  z-index: 1;
+  @media screen and (min-height: 991px) and (max-height: 1080px){
+    width: 1860px;
+    height: 1080px;
+    position: absolute;
+    top: calc(50% - 540px);
+    left: calc(50% - 930px);
+  }
 }
 
 .map-image-dw {
   position: absolute;
+  z-index: 2;
   width: 100%;
   height: 100vh;
   opacity: .6;
   top: 0;
   left: 0;
+  @media screen and (min-height: 991px) and (max-height: 1080px){
+    width: 1860px;
+    height: 1080px;
+    position: absolute;
+    top: calc(50% - 540px);
+    left: calc(50% - 930px);
+  }
 }
 /*end*/
 
@@ -732,5 +748,626 @@ body {
 .filed-60 svg {
   width: 114px;
   height: 77px;
+}
+
+.filed-61 {
+  top: 110px;
+  left: 405px;
+}
+.filed-61 svg {
+  width: 90px;
+  height: 47px;
+}
+
+.filed-62 {
+  top: 121px;
+  left: 440px;
+}
+.filed-62 svg {
+  width: 98px;
+  height: 45px;
+}
+
+.filed-64 {
+  top: 136px;
+  left: 465px;
+}
+.filed-64 svg {
+  width: 110px;
+  height: 46px;
+}
+
+.filed-65 {
+  top: 160px;
+  left: 505px;
+}
+.filed-65 svg {
+  width: 100px;
+  height: 47px;
+}
+
+.filed-66 {
+  top: 174px;
+  left: 532px;
+}
+.filed-66 svg {
+  width: 104px;
+  height: 48px;
+}
+
+.filed-67 {
+  top: 193px;
+  left: 558px;
+}
+.filed-67 svg {
+  width: 108px;
+  height: 49px;
+}
+
+.filed-68 {
+  top: 210px;
+  left: 590px;
+}
+.filed-68 svg {
+  width: 117px;
+  height: 58px;
+}
+
+.filed-69 {
+  top: 231px;
+  left: 625px;
+}
+.filed-69 svg {
+  width: 116px;
+  height: 65px;
+}
+
+.filed-70 {
+  top: 253px;
+  left: 667px;
+}
+.filed-70 svg {
+  width: 103px;
+  height: 60px;
+}
+
+.filed-71 {
+  top: 273px;
+  left: 696px;
+}
+.filed-71 svg {
+  width: 109px;
+  height: 60px;
+}
+
+.filed-72 {
+  top: 303px;
+  left: 738px;
+}
+.filed-72 svg {
+  width: 124px;
+  height: 71px;
+}
+
+.filed-73 {
+  top: 303px;
+  left: 620px;
+}
+.filed-73 svg {
+  width: 111px;
+  height: 69px;
+}
+
+.filed-74 {
+  top: 314px;
+  left: 560px;
+}
+.filed-74 svg {
+  width: 109px;
+  height: 74px;
+}
+
+.filed-75 {
+  top: 328px;
+  left: 500px;
+}
+.filed-75 svg {
+  width: 110px;
+  height: 75px;
+}
+
+.filed-76 {
+  top: 343px;
+  left: 443px;
+}
+.filed-76 svg {
+  width: 102px;
+  height: 78px;
+}
+
+.filed-77 {
+  top: 357px;
+  left: 383px;
+}
+.filed-77 svg {
+  width: 98px;
+  height: 82px;
+}
+
+.filed-78 {
+  top: 370px;
+  left: 308px;
+}
+.filed-78 svg {
+  width: 111px;
+  height: 86px;
+}
+
+.filed-79 {
+  top: 385px;
+  left: 245px;
+}
+.filed-79 svg {
+  width: 102px;
+  height: 88px;
+}
+
+.filed-80 {
+  top: 330px;
+  left: 782px;
+}
+.filed-80 svg {
+  width: 123px;
+  height: 72px;
+}
+
+.filed-81 {
+  top: 357px;
+  left: 823px;
+}
+.filed-81 svg {
+  width: 128px;
+  height: 73px;
+}
+
+.filed-82 {
+  top: 387px;
+  left: 861px;
+}
+.filed-82 svg {
+  width: 140px;
+  height: 80px;
+}
+
+.filed-83 {
+  top: 263px;
+  left: 823px;
+}
+.filed-83 svg {
+  width: 123px;
+  height: 68px;
+}
+
+.filed-84 {
+  top: 241px;
+  left: 763px;
+}
+.filed-84 svg {
+  width: 105px;
+  height: 63px;
+}
+
+.filed-85 {
+  top: 224px;
+  left: 805px;
+}
+.filed-85 svg {
+  width: 106px;
+  height: 63px;
+}
+
+.filed-86 {
+  top: 209px;
+  left: 847px;
+}
+.filed-86 svg {
+  width: 104px;
+  height: 58px;
+}
+
+.filed-87 {
+  top: 194px;
+  left: 884px;
+}
+.filed-87 svg {
+  width: 106px;
+  height: 54px;
+}
+
+.filed-88 {
+  top: 447px;
+  left: 268px;
+}
+.filed-88 svg {
+  width: 112px;
+  height: 100px;
+}
+
+.filed-89 {
+  top: 430px;
+  left: 343px;
+}
+.filed-89 svg {
+  width: 110px;
+  height: 97px;
+}
+
+.filed-90 {
+  top: 414px;
+  left: 415px;
+}
+.filed-90 svg {
+  width: 109px;
+  height: 92px;
+}
+
+.filed-91 {
+  top: 396px;
+  left: 475px;
+}
+.filed-91 svg {
+  width: 118px;
+  height: 89px;
+}
+
+.filed-92 {
+  top: 380px;
+  left: 540px;
+}
+.filed-92 svg {
+  width: 118px;
+  height: 87px;
+}
+
+.filed-93 {
+  top: 364px;
+  left: 602px;
+}
+.filed-93 svg {
+  width: 119px;
+  height: 85px;
+}
+
+.filed-94 {
+  top: 343px;
+  left: 663px;
+}
+.filed-94 svg {
+  width: 140px;
+  height: 89px;
+}
+
+.filed-95 {
+  top: 178px;
+  left: 926px;
+}
+.filed-95 svg {
+  width: 104px;
+  height: 53px;
+}
+
+.filed-96 {
+  top: 166px;
+  left: 965px;
+}
+.filed-96 svg {
+  width: 107px;
+  height: 50px;
+}
+
+.filed-97 {
+  top: 150px;
+  left: 997px;
+}
+.filed-97 svg {
+  width: 109px;
+  height: 55px;
+}
+
+.filed-98 {
+  top: 137px;
+  left: 1033px;
+}
+.filed-98 svg {
+  width: 120px;
+  height: 57px;
+}
+
+.filed-99 {
+  top: 130px;
+  left: 1063px;
+}
+.filed-99 svg {
+  width: 90px;
+  height: 57px;
+}
+
+.filed-100 {
+  top: 520px;
+  left: 365px;
+}
+.filed-100 svg {
+  width: 113px;
+  height: 110px;
+}
+
+.filed-101 {
+  top: 500px;
+  left: 433px;
+}
+.filed-101 svg {
+  width: 120px;
+  height: 108px;
+}
+
+.filed-102 {
+  top: 483px;
+  left: 503px;
+}
+.filed-102 svg {
+  width: 124px;
+  height: 101px;
+}
+
+.filed-103 {
+  top: 463px;
+  left: 572px;
+}
+.filed-103 svg {
+  width: 128px;
+  height: 98px;
+}
+
+.filed-104 {
+  top: 444px;
+  left: 644px;
+}
+.filed-104 svg {
+  width: 124px;
+  height: 97px;
+}
+
+.filed-105 {
+  top: 426px;
+  left: 711px;
+}
+.filed-105 svg {
+  width: 122px;
+  height: 94px;
+}
+
+.filed-106 {
+  top: 403px;
+  left: 768px;
+}
+.filed-106 svg {
+  width: 147px;
+  height: 129px;
+}
+
+.filed-107 {
+  top: 142px;
+  left: 1150px;
+}
+.filed-107 svg {
+  width: 63px;
+  height: 58px;
+}
+
+.filed-108 {
+  top: 153px;
+  left: 1198px;
+}
+.filed-108 svg {
+  width: 72px;
+  height: 60px;
+}
+
+.filed-109 {
+  top: 158px;
+  left: 1261px;
+}
+.filed-109 svg {
+  width: 93px;
+  height: 65px;
+}
+
+.filed-110 {
+  top: 128px;
+  left: 1248px;
+}
+.filed-110 svg {
+  width: 94px;
+  height: 41px;
+}
+
+.filed-111 {
+  top: 418px;
+  left: 908px;
+}
+.filed-111 svg {
+  width: 145px;
+  height: 111px;
+}
+
+.filed-112 {
+  top: 453px;
+  left: 905px;
+}
+.filed-112 svg {
+  width: 206px;
+  height: 105px;
+}
+
+.filed-113 {
+  top: 488px;
+  left: 984px;
+}
+.filed-113 svg {
+  width: 186px;
+  height: 98px;
+}
+
+.filed-114 {
+  top: 526px;
+  left: 1068px;
+}
+.filed-114 svg {
+  width: 180px;
+  height: 106px;
+}
+
+.filed-115 {
+  top: 166px;
+  left: 643px;
+}
+.filed-115 svg {
+  width: 80px;
+  height: 47px;
+}
+
+.filed-116 {
+  top: 145px;
+  left: 680px;
+}
+.filed-116 svg {
+  width: 84px;
+  height: 56px;
+}
+
+.filed-117 {
+  top: 132px;
+  left: 723px;
+}
+.filed-117 svg {
+  width: 82px;
+  height: 53px;
+}
+
+.filed-118 {
+  top: 121px;
+  left: 760px;
+}
+.filed-118 svg {
+  width: 82px;
+  height: 50px;
+}
+
+.filed-119 {
+  top: 113px;
+  left: 791px;
+}
+.filed-119 svg {
+  width: 79px;
+  height: 45px;
+}
+
+.filed-120 {
+  top: 100px;
+  left: 820px;
+}
+.filed-120 svg {
+  width: 92px;
+  height: 48px;
+}
+
+.filed-121 {
+  top: 90px;
+  left: 861px;
+}
+.filed-121 svg {
+  width: 82px;
+  height: 44px;
+}
+
+.filed-122 {
+  top: 70px;
+  left: 888px;
+}
+.filed-122 svg {
+  width: 94px;
+  height: 53px;
+}
+
+.filed-123 {
+  top: 50px;
+  left: 918px;
+}
+.filed-123 svg {
+  width: 94px;
+  height: 60px;
+}
+
+.filed-124 {
+  top: 38px;
+  left: 956px;
+}
+.filed-124 svg {
+  width: 90px;
+  height: 60px;
+}
+
+.filed-125 {
+  top: 24px;
+  left: 976px;
+}
+.filed-125 svg {
+  width: 100px;
+  height: 62px;
+}
+
+.filed-126 {
+  top: 13px;
+  left: 1009px;
+}
+.filed-126 svg {
+  width: 98px;
+  height: 62px;
+}
+
+.filed-127 {
+  top: 11px;
+  left: 1034px;
+}
+.filed-127 svg {
+  width: 98px;
+  height: 55px;
+}
+
+.filed-128 {
+  top: 10px;
+  left: 1058px;
+}
+.filed-128 svg {
+  width: 96px;
+  height: 45px;
+}
+
+.filed-129 {
+  top: 11px;
+  left: 1100px;
+}
+.filed-129 svg {
+  width: 82px;
+  height: 37px;
+}
+
+.filed-130 {
+  top: 4px;
+  left: 1132px;
+}
+.filed-130 svg {
+  width: 92px;
+  height: 32px;
 }
 /*end*/
