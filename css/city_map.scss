@@ -51,6 +51,16 @@ body {
   -o-transform: rotate(10deg);
   transform: rotate(10deg);
   transform-origin: 50% 50%;
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    width: 90%;
+    right: -630px;
+    top: 0;
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    transform: rotate(20deg);
+  }
 }
 
 .map-cloud.cloud--third {
@@ -62,6 +72,9 @@ body {
   -o-transform: rotate(-10deg);
   transform: rotate(-10deg);
   transform-origin: 50% 50%;
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    width: 90%;
+  }
 }
 
 .map-cloud.cloud--fourth {
@@ -72,6 +85,11 @@ body {
 .map-cloud.cloud--fifth {
   left: -1150px;
   bottom: -230px;
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    width: 90%;
+    left: -620px;
+    bottom: -50px;
+  }
 }
 
 .map-cloud.cloud--sixth {
@@ -184,29 +202,26 @@ body {
   width: 100%;
   height: 100%;
   z-index: 1;
-  @media screen and (min-height: 991px) and (max-height: 1080px){
+  @media screen and (height: 1080px){
     width: 1860px;
     height: 1080px;
     position: absolute;
     top: calc(50% - 540px);
     left: calc(50% - 930px);
   }
-}
-
-.map-image-dw {
-  position: absolute;
-  z-index: 2;
-  width: 100%;
-  height: 100vh;
-  opacity: 0;
-  top: 0;
-  left: 0;
-  @media screen and (min-height: 991px) and (max-height: 1080px){
+  @media screen and (height: 991px){
     width: 1860px;
-    height: 1080px;
+    height: 991px;
     position: absolute;
-    top: calc(50% - 540px);
+    top: calc(50% - 495.5px);
     left: calc(50% - 930px);
+  }
+  @media screen and (height: 900px){
+    height: 900px;
+    width: 1600px;
+    position: absolute;
+    top: calc(50% - 450px);
+    left: calc(50% - 800px);
   }
 }
 /*end*/
@@ -214,12 +229,18 @@ body {
 /*Fields*/
 .container {
   position: absolute;
-  top: 150px;
+  top: 125px;
   left: calc(50% - 650px);
   z-index: 1;
   max-width: 1350px;
   width: 100%;
   height: 650px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 150px;
+  }
+  @media screen and (width: 1920px) and (height: 991px){
+    top: 135px;
+  }
 }
 
 .field {
@@ -229,1494 +250,3449 @@ body {
 .filed-2 {
   top: 51px;
   left: 93px;
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    top: 44px;
+    left: 170px;
+  }
 }
 .filed-2 svg {
   width: 75px;
   height: 31px;
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    width: 64px;
+  }
 }
 
 .filed-3 {
   top: 50px;
   left: 139px;
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    top: 44px;
+    left: 210px;
+  }
 }
 .filed-3 svg {
   width: 70px;
   height: 32px;
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    width: 62px;
+  }
 }
 
 .filed-4 {
   top: 50px;
   left: 175px;
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    top: 43px;
+    left: 246px;
+  }
 }
 .filed-4 svg {
   width: 80px;
   height: 34px;
+  top: 50px;
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    width: 64px;
+  }
 }
 
 .filed-5 {
   top: 50px;
   left: 225px;
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    top: 43px;
+    left: 287px;
+  }
 }
 .filed-5 svg {
   width: 75px;
   height: 34px;
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    width: 60px;
+  }
 }
 
 .filed-6 {
   top: 50px;
   left: 277px;
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    top: 44px;
+    left: 330px;
+  }
 }
 .filed-6 svg {
   width: 70px;
   height: 35px;
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    width: 55px;
+  }
 }
 
 .filed-8 {
-  top: 110px;
+  top: 106px;
   left: -3px;
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 92px;
+    left: 86px;
+  }
 }
 .filed-8 svg {
   width: 83px;
   height: 38px;
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 70px;
+  }
 }
 
 .filed-9 {
-  top: 101px;
+  top: 97px;
   left: 65px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 101px;
+    left: 65px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 85px;
+    left: 145px;
+  }
 }
 .filed-9 svg {
   width: 57px;
   height: 37px;
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 52px;
+  }
 }
 
 .filed-10 {
-  top: 90px;
+  top: 86px;
   left: 107px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 90px;
+    left: 107px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 74px;
+    left: 186px;
+  }
 }
 .filed-10 svg {
   width: 73px;
   height: 40px;
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 65px;
+  }
 }
 
 .filed-11 {
-  top: 85px;
+  top: 81px;
   left: 167px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 85px;
+    left: 167px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 71px;
+    left: 239px;
+  }
 }
 .filed-11 svg {
   width: 80px;
   height: 34px;
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 68px;
+  }
 }
 
 .filed-12 {
-  top: 86px;
+  top: 82px;
   left: 229px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 86px;
+    left: 229px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 72px;
+    left: 290px;
+  }
 }
 .filed-12 svg {
   width: 106px;
   height: 24px;
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 90px;
+  }
 }
 
 .filed-13 {
   top: 51px;
   left: 319px;
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    top: 45px;
+    left: 362px;
+  }
 }
 .filed-13 svg {
   width: 88px;
   height: 39px;
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    width: 70px;
+  }
 }
 
 .filed-14 {
   top: 56px;
   left: 360px;
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    top: 48px;
+    left: 397px;
+  }
 }
 .filed-14 svg {
   width: 93px;
   height: 42px;
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    width: 72px;
+  }
 }
 
 .filed-15 {
   top: 62px;
   left: 410px;
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    top: 53px;
+    left: 436px;
+  }
 }
 .filed-15 svg {
   width: 85px;
   height: 43px;
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    width: 70px;
+  }
 }
 
 .filed-16 {
   top: 70px;
   left: 446px;
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    top: 59px;
+    left: 466px;
+  }
 }
 .filed-16 svg {
   width: 83px;
   height: 43px;
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    width: 68px;
+  }
 }
 
 .filed-17 {
   top: 79px;
   left: 475px;
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    top: 66px;
+    left: 492px;
+  }
 }
 .filed-17 svg {
   width: 97px;
   height: 46px;
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    width: 78px;
+  }
 }
 
 .filed-18 {
-  top: 92px;
-  left: 510px;
+  top: 90px;
+  left: 512px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 92px;
+    left: 510px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    top: 75px;
+    left: 521px;
+  }
 }
 .filed-18 svg {
-  width: 115px;
+  width: 110px;
   height: 51px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 115px;
+    height: 51px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    width: 94px;
+  }
 }
 
 .filed-19 {
-  top: 110px;
-  left: 561px;
+  top: 105px;
+  left: 560px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 110px;
+    left: 561px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    top: 87px;
+    left: 563px;
+  }
 }
 .filed-19 svg {
-  width: 128px;
+  width: 120px;
   height: 62px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 128px;
+    height: 62px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    width: 102px;
+  }
 }
 
 .filed-19-1 {
-  top: 126px;
-  left: 610px;
+  top: 119px;
+  left: 608px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 126px;
+    left: 610px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    top: 98px;
+    left: 600px;
+  }
 }
 .filed-19-1 svg {
-  width: 134px;
+  width: 128px;
   height: 68px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 134px;
+    height: 68px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    width: 106px;
+  }
 }
 
 .filed-20 {
-  top: 130px;
-  left: 21px;
+  top: 127px;
+  left: 25px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 130px;
+    left: 21px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 106px;
+    left: 114px;
+  }
 }
 .filed-20 svg {
-  width: 105px;
+  width: 100px;
   height: 51px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 105px;
+    height: 51px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 90px;
+  }
 }
 
 .filed-21 {
-  top: 122px;
+  top: 118px;
   left: 99px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 122px;
+    left: 99px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 100px;
+    left: 178px;
+  }
 }
 .filed-21 svg {
-  width: 77px;
+  width: 74px;
   height: 48px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 77px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 68px;
+  }
 }
 
 .filed-22 {
-  top: 114px;
+  top: 111px;
   left: 149px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 114px;
+    left: 149px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 94px;
+    left: 222px;
+  }
 }
 .filed-22 svg {
-  width: 80px;
+  width: 77px;
   height: 46px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 80px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 70px;
+  }
 }
 
 .filed-23 {
-  top: 106px;
-  left: 196px;
+  top: 102px;
+  left: 195px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 106px;
+    left: 196px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 86px;
+    left: 264px;
+  }
 }
 .filed-23 svg {
-  width: 84px;
+  width: 81px;
   height: 47px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 84px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 70px;
+  }
 }
 
 .filed-24 {
-  top: 98px;
+  top: 94px;
   left: 251px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 98px;
+    left: 251px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 80px;
+    left: 312px;
+  }
 }
 .filed-24 svg {
-  width: 75px;
+  width: 72px;
   height: 46px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 98px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 62px;
+  }
 }
 
 .filed-25 {
-  top: 90px;
+  top: 86px;
   left: 295px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 90px;
+    left: 295px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 72px;
+    left: 348px;
+  }
 }
 .filed-25 svg {
-  width: 85px;
+  width: 82px;
   height: 45px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 85px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 70px;
+  }
 }
 
 .filed-26 {
-  top: 90px;
+  top: 86px;
   left: 340px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 90px;
+    left: 340px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 72px;
+    left: 382px;
+  }
 }
 .filed-26 svg {
-  width: 80px;
+  width: 77px;
   height: 38px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 80px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 67px;
+  }
 }
 
 .filed-27 {
-  top: 100px;
+  top: 96px;
   left: 375px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 100px;
+    left: 375px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 80px;
+    left: 410px;
+  }
 }
 .filed-27 svg {
-  width: 90px;
+  width: 87px;
   height: 46px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 90px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 74px;
+  }
 }
 
 .filed-28 {
-  top: 164px;
-  left: 55px;
+  top: 159px;
+  left: 58px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 164px;
+    left: 55px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 136px;
+    left: 144px;
+  }
 }
 .filed-28 svg {
-  width: 96px;
+  width: 88px;
   height: 49px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 96px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 78px;
+  }
 }
 
 .filed-29 {
-  top: 155px;
+  top: 149px;
   left: 120px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 155px;
+    left: 120px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 128px;
+    left: 198px;
+  }
 }
 .filed-29 svg {
-  width: 80px;
+  width: 76px;
   height: 48px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 80px;
+    height: 48px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 68px;
+  }
 }
 
 .filed-30 {
-  top: 146px;
-  left: 168px;
+  top: 141px;
+  left: 167px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 146px;
+    left: 168px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 121px;
+    left: 240px;
+  }
 }
 .filed-30 svg {
-  width: 84px;
+  width: 80px;
   height: 46px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 84px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 68px;
+  }
 }
 
 .filed-31 {
-  top: 138px;
-  left: 223px;
+  top: 133px;
+  left: 221px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 138px;
+    left: 223px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 112px;
+    left: 284px;
+  }
 }
 .filed-31 svg {
-  width: 76px;
+  width: 73px;
   height: 47px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 76px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 64px;
+  }
 }
 
 .filed-32 {
-  top: 128px;
-  left: 273px;
+  top: 123px;
+  left: 271px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 128px;
+    left: 273px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 104px;
+    left: 330px;
+  }
 }
 .filed-32 svg {
   width: 71px;
   height: 48px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 71px;
+    height: 48px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 58px;
+  }
 }
 
 .filed-33 {
-  top: 120px;
+  top: 115px;
   left: 320px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 120px;
+    left: 320px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 97px;
+    left: 368px;
+  }
 }
 .filed-33 svg {
   width: 107px;
   height: 48px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 107px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 88px;
+  }
 }
 
 .filed-34 {
-  top: 195px;
-  left: 100px;
+  top: 182px;
+  left: 106px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 195px;
+    left: 100px;
+  }
 }
 .filed-34 svg {
-  width: 124px;
+  width: 118px;
   height: 61px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 124px;
+  }
 }
 
 .filed-35 {
-  top: 187px;
-  left: 196px;
+  top: 174px;
+  left: 198px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 187px;
+    left: 196px;
+  }
 }
 .filed-35 svg {
-  width: 81px;
+  width: 76px;
   height: 54px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 81px;
+    height: 54px;
+  }
 }
 
 .filed-36 {
-  top: 180px;
+  top: 167px;
   left: 246px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 180px;
+    left: 246px;
+  }
 }
 .filed-36 svg {
-  width: 76px;
+  width: 72px;
   height: 51px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 76px;
+    height: 51px;
+  }
 }
 
 .filed-37 {
-  top: 173px;
-  left: 281px;
+  top: 160px;
+  left: 282px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 173px;
+    left: 281px;
+  }
 }
 .filed-37 svg {
-  width: 80px;
+  width: 76px;
   height: 49px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 80px;
+    height: 49px;
+  }
 }
 
 .filed-38 {
-  top: 165px;
+  top: 153px;
   left: 323px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 165px;
+    left: 323px;
+  }
 }
 .filed-38 svg {
-  width: 80px;
+  width: 76px;
   height: 49px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 80px;
+    height: 49px;
+  }
 }
 
 .filed-39 {
-  top: 157px;
+  top: 144px;
   left: 360px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 157px;
+    left: 360px;
+  }
 }
 .filed-39 svg {
-  width: 85px;
+  width: 80px;
   height: 50px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 85px;
+    height: 50px;
+  }
 }
 
 .filed-40 {
-  top: 153px;
-  left: 402px;
+  top: 141px;
+  left: 400px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 153px;
+    left: 402px;
+  }
 }
 .filed-40 svg {
-  width: 87px;
+  width: 84px;
   height: 46px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 87px;
+    height: 46px;
+  }
 }
 
 .filed-41 {
-  top: 181px;
-  left: 438px;
+  top: 168px;
+  left: 434px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 181px;
+    left: 438px;
+  }
 }
 .filed-41 svg {
-  width: 94px;
+  width: 90px;
   height: 51px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 94px;
+    height: 51px;
+  }
 }
 
 .filed-42 {
-  top: 192px;
-  left: 397px;
+  top: 178px;
+  left: 394px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 192px;
+    left: 397px;
+  }
 }
 .filed-42 svg {
-  width: 80px;
+  width: 78px;
   height: 50px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 80px;
+    height: 50px;
+  }
 }
 
 .filed-43 {
-  top: 200px;
+  top: 185px;
   left: 355px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 200px;
+    left: 355px;
+  }
 }
 .filed-43 svg {
-  width: 80px;
+  width: 76px;
   height: 52px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 80px;
+    height: 52px;
+  }
 }
 
 .filed-44 {
-  top: 207px;
+  top: 192px;
   left: 315px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 207px;
+    left: 315px;
+  }
 }
 .filed-44 svg {
-  width: 77px;
+  width: 74px;
   height: 52px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 77px;
+    height: 52px;
+  }
 }
 
 .filed-45 {
-  top: 215px;
-  left: 270px;
+  top: 200px;
+  left: 272px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 215px;
+    left: 270px;
+  }
 }
 .filed-45 svg {
-  width: 79px;
+  width: 74px;
   height: 52px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 79px;
+    height: 52px;
+  }
 }
 
 .filed-46 {
-  top: 223px;
+  top: 207px;
   left: 217px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 223px;
+    left: 217px;
+  }
 }
 .filed-46 svg {
-  width: 86px;
+  width: 84px;
   height: 57px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 86px;
+    height: 57px;
+  }
 }
 
 .filed-47 {
-  top: 233px;
-  left: 140px;
+  top: 217px;
+  left: 144px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 233px;
+    left: 140px;
+  }
 }
 .filed-47 svg {
-  width: 107px;
+  width: 100px;
   height: 59px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 107px;
+    height: 59px;
+  }
 }
 
 .filed-48 {
-  top: 215px;
+  top: 193px;
   left: 508px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 215px;
+    left: 508px;
+  }
 }
 .filed-48 svg {
-  width: 105px;
+  width: 100px;
   height: 57px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 105px;
+    height: 57px;
+  }
 }
 
 .filed-49 {
-  top: 226px;
-  left: 455px;
+  top: 204px;
+  left: 457px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 226px;
+    left: 455px;
+  }
 }
 .filed-49 svg {
-  width: 90px;
+  width: 86px;
   height: 57px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 90px;
+    height: 57px;
+  }
 }
 
 .filed-50 {
-  top: 236px;
-  left: 400px;
+  top: 214px;
+  left: 405px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 236px;
+    left: 400px;
+  }
 }
 .filed-50 svg {
-  width: 90px;
+  width: 87px;
   height: 60px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 90px;
+    height: 60px;
+  }
 }
 
 .filed-51 {
-  top: 248px;
-  left: 344px;
+  top: 226px;
+  left: 350px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 248px;
+    left: 344px;
+  }
 }
 .filed-51 svg {
-  width: 88px;
+  width: 86px;
   height: 60px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 88px;
+    height: 60px;
+  }
 }
 
 .filed-52 {
-  top: 260px;
-  left: 268px;
+  top: 237px;
+  left: 278px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 260px;
+    left: 268px;
+  }
 }
 .filed-52 svg {
-  width: 107px;
+  width: 100px;
   height: 62px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 107px;
+    height: 62px;
+  }
 }
 
 .filed-53 {
-  top: 275px;
-  left: 187px;
+  top: 251px;
+  left: 203px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 275px;
+    left: 187px;
+  }
 }
 .filed-53 svg {
-  width: 127px;
+  width: 117px;
   height: 63px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 127px;
+    height: 63px;
+  }
 }
 
 .filed-54 {
-  top: 248px;
+  top: 224px;
   left: 538px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 248px;
+    left: 538px;
+  }
 }
 .filed-54 svg {
-  width: 138px;
+  width: 128px;
   height: 71px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 138px;
+    height: 71px;
+  }
 }
 
 .filed-56 {
-  top: 264px;
-  left: 485px;
+  top: 239px;
+  left: 486px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 264px;
+    left: 485px;
+  }
 }
 .filed-56 svg {
-  width: 104px;
+  width: 99px;
   height: 69px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 104px;
+    height: 69px;
+  }
 }
 
 .filed-57 {
-  top: 275px;
-  left: 425px;
+  top: 250px;
+  left: 430px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 275px;
+    left: 425px;
+  }
 }
 .filed-57 svg {
-  width: 105px;
+  width:98px;
   height: 71px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 105px;
+    height: 71px;
+  }
 }
 
 .filed-58 {
-  top: 288px;
-  left: 368px;
+  top: 262px;
+  left: 376px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 288px;
+    left: 368px;
+  }
 }
 .filed-58 svg {
-  width: 102px;
+  width: 98px;
   height: 73px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 288px;
+    left: 368px;
+  }
 }
 
 .filed-59 {
-  top: 300px;
-  left: 306px;
+  top: 274px;
+  left: 316px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 300px;
+    left: 306px;
+  }
 }
 .filed-59 svg {
-  width: 102px;
+  width: 98px;
   height: 76px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 102px;
+    height: 76px;
+  }
 }
 
 .filed-60 {
-  top: 313px;
-  left: 230px;
+  top: 286px;
+  left: 242px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 313px;
+    left: 230px;
+  }
 }
 .filed-60 svg {
-  width: 114px;
+  width: 110px;
   height: 77px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 114px;
+    height: 77px;
+  }
 }
 
 .filed-61 {
-  top: 110px;
-  left: 405px;
+  top: 106px;
+  left: 407px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 110px;
+    left: 405px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 87px;
+    left: 436px;
+  }
 }
 .filed-61 svg {
-  width: 90px;
+  width: 88px;
   height: 47px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 90px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 78px;
+  }
 }
 
 .filed-62 {
-  top: 121px;
+  top: 117px;
   left: 440px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 121px;
+    left: 440px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 97px;
+    left: 468px;
+  }
 }
 .filed-62 svg {
-  width: 98px;
+  width: 94px;
   height: 45px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 98px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 82px;
+  }
 }
 
 .filed-64 {
-  top: 136px;
-  left: 465px;
+  top: 131px;
+  left: 464px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 136px;
+    left: 465px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 110px;
+    left: 486px;
+  }
 }
 .filed-64 svg {
-  width: 110px;
+  width: 105px;
   height: 46px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 110px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 94px;
+  }
 }
 
 .filed-65 {
-  top: 160px;
-  left: 505px;
+  top: 148px;
+  left: 510px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 160px;
+    left: 505px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 132px;
+    left: 526px;
+  }
 }
 .filed-65 svg {
-  width: 100px;
+  width: 94px;
   height: 47px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 100px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 84px;
+  }
 }
 
 .filed-66 {
-  top: 174px;
-  left: 532px;
+  top: 160px;
+  left: 534px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 174px;
+    left: 532px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 143px;
+    left: 547px;
+  }
 }
 .filed-66 svg {
-  width: 104px;
+  width: 96px;
   height: 48px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 104px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 88px;
+
+  }
 }
 
 .filed-67 {
-  top: 193px;
-  left: 558px;
+  top: 177px;
+  left: 560px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 193px;
+    left: 558px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 158px;
+    left: 572px;
+  }
 }
 .filed-67 svg {
-  width: 108px;
+  width: 98px;
   height: 49px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 108px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 90px;
+  }
 }
 
 .filed-68 {
-  top: 210px;
-  left: 590px;
+  top: 191px;
+  left: 588px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 210px;
+    left: 590px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 172px;
+    left: 598px;
+  }
 }
 .filed-68 svg {
-  width: 117px;
+  width: 106px;
   height: 58px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 117px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 98px;
+  }
 }
 
 .filed-69 {
-  top: 231px;
-  left: 625px;
+  top: 210px;
+  left: 623px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 231px;
+    left: 625px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 190px;
+    left: 628px;
+  }
 }
 .filed-69 svg {
-  width: 116px;
+  width: 104px;
   height: 65px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 116px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 100px;
+  }
 }
 
 .filed-70 {
-  top: 253px;
-  left: 667px;
+  top: 229px;
+  left: 662px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 253px;
+    left: 667px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 210px;
+    left: 666px;
+  }
 }
 .filed-70 svg {
-  width: 103px;
+  width: 92px;
   height: 60px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 103px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 90px;
+  }
 }
 
 .filed-71 {
-  top: 273px;
-  left: 696px;
+  top: 247px;
+  left: 690px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 273px;
+    left: 696px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 226px;
+    left: 690px;
+  }
 }
 .filed-71 svg {
-  width: 109px;
+  width: 97px;
   height: 60px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 109px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 97px;
+  }
 }
 
 .filed-72 {
-  top: 303px;
-  left: 738px;
+  top: 270px;
+  left: 742px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 303px;
+    left: 738px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 250px;
+    left: 730px;
+  }
 }
 .filed-72 svg {
-  width: 124px;
+  width: 118px;
   height: 71px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 124px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 104px;
+  }
 }
 
 .filed-73 {
-  top: 303px;
-  left: 620px;
+  top: 270px;
+  left: 623px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 303px;
+    left: 620px;
+  }
 }
 .filed-73 svg {
-  width: 111px;
+  width: 106px;
   height: 69px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 111px;
+    height: 69px;
+  }
 }
 
 .filed-74 {
-  top: 314px;
-  left: 560px;
+  top: 280px;
+  left: 566px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 314px;
+    left: 560px;
+  }
 }
 .filed-74 svg {
-  width: 109px;
+  width: 104px;
   height: 74px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 109px;
+    height: 74px;
+  }
 }
 
 .filed-75 {
-  top: 328px;
-  left: 500px;
+  top: 294px;
+  left: 510px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 328px;
+    left: 500px;
+  }
 }
 .filed-75 svg {
-  width: 110px;
+  width: 103px;
   height: 75px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 110px;
+    height: 75px;
+  }
 }
 
 .filed-76 {
-  top: 343px;
-  left: 443px;
+  top: 307px;
+  left: 456px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 343px;
+    left: 443px;
+  }
 }
 .filed-76 svg {
-  width: 102px;
+  width: 96px;
   height: 78px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 102px;
+    height: 78px;
+  }
 }
 
 .filed-77 {
-  top: 357px;
-  left: 383px;
+  top: 319px;
+  left: 398px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 357px;
+    left: 383px;
+  }
 }
 .filed-77 svg {
-  width: 98px;
+  width: 94px;
   height: 82px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 98px;
+    height: 82px;
+  }
 }
 
 .filed-78 {
-  top: 370px;
-  left: 308px;
+  top: 332px;
+  left: 322px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 370px;
+    left: 308px;
+  }
 }
 .filed-78 svg {
-  width: 111px;
+  width: 108px;
   height: 86px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 111px;
+    height: 86px;
+  }
 }
 
 .filed-79 {
-  top: 385px;
-  left: 245px;
+  top: 347px;
+  left: 260px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 385px;
+    left: 245px;
+  }
 }
 .filed-79 svg {
-  width: 102px;
+  width: 100px;
   height: 88px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 102px;
+    height: 88px;
+  }
 }
 
 .filed-80 {
-  top: 330px;
-  left: 782px;
+  top: 296px;
+  left: 784px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 330px;
+    left: 782px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 272px;
+    left: 766px;
+  }
 }
 .filed-80 svg {
-  width: 123px;
+  width: 118px;
   height: 72px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 123px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 104px;
+  }
 }
 
 .filed-81 {
-  top: 357px;
-  left: 823px;
+  top: 320px;
+  left: 832px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 357px;
+    left: 823px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 294px;
+    left: 802px;
+  }
 }
 .filed-81 svg {
-  width: 128px;
+  width: 112px;
   height: 73px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 128px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 106px;
+  }
 }
 
 .filed-82 {
-  top: 387px;
-  left: 861px;
+  top: 344px;
+  left: 867px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 387px;
+    left: 861px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 318px;
+    left: 836px;
+  }
 }
 .filed-82 svg {
-  width: 140px;
+  width: 118px;
   height: 80px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 140px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 112px;
+  }
 }
 
 .filed-83 {
-  top: 263px;
-  left: 823px;
+  top: 238px;
+  left: 825px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 263px;
+    left: 823px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 212px;
+    left: 802px;
+  }
 }
 .filed-83 svg {
-  width: 123px;
+  width: 120px;
   height: 68px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 123px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 110px;
+  }
 }
 
 .filed-84 {
-  top: 241px;
-  left: 763px;
+  top: 220px;
+  left: 770px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 241px;
+    left: 763px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 194px;
+    left: 750px;
+  }
 }
 .filed-84 svg {
-  width: 105px;
+  width: 96px;
   height: 63px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 105px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 88px;
+  }
 }
 
 .filed-85 {
-  top: 224px;
-  left: 805px;
+  top: 205px;
+  left: 806px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 224px;
+    left: 805px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 180px;
+    left: 788px;
+  }
 }
 .filed-85 svg {
-  width: 106px;
+  width: 98px;
   height: 63px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 106px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 88px;
+  }
 }
 
 .filed-86 {
-  top: 209px;
-  left: 847px;
+  top: 192px;
+  left: 844px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 209px;
+    left: 847px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 168px;
+    left: 820px;
+  }
 }
 .filed-86 svg {
-  width: 104px;
+  width: 98px;
   height: 58px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 104px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 89px;
+  }
 }
 
 .filed-87 {
-  top: 194px;
-  left: 884px;
+  top: 178px;
+  left: 880px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 194px;
+    left: 884px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 156px;
+    left: 851px;
+  }
 }
 .filed-87 svg {
-  width: 106px;
+  width: 100px;
   height: 54px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 106px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 90px;
+  }
 }
 
 .filed-88 {
-  top: 447px;
-  left: 268px;
+  top: 405px;
+  left: 283px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 447px;
+    left: 268px;
+  }
 }
 .filed-88 svg {
-  width: 112px;
+  width: 100px;
   height: 100px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 112px;
+    height: 100px;
+  }
 }
 
 .filed-89 {
-  top: 430px;
-  left: 343px;
+  top: 388px;
+  left: 354px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 430px;
+    left: 343px;
+  }
 }
 .filed-89 svg {
-  width: 110px;
+  width: 108px;
   height: 97px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 110px;
+    height: 97px;
+  }
 }
 
 .filed-90 {
-  top: 414px;
-  left: 415px;
+  top: 373px;
+  left: 426px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 414px;
+    left: 415px;
+  }
 }
 .filed-90 svg {
-  width: 109px;
+  width: 102px;
   height: 92px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 109px;
+    height: 92px;
+  }
 }
 
 .filed-91 {
-  top: 396px;
-  left: 475px;
+  top: 356px;
+  left: 486px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 396px;
+    left: 475px;
+  }
 }
 .filed-91 svg {
-  width: 118px;
+  width: 108px;
   height: 89px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 118px;
+    height: 89px;
+  }
 }
 
 .filed-92 {
-  top: 380px;
-  left: 540px;
+  top: 341px;
+  left: 547px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 380px;
+    left: 540px;
+  }
 }
 .filed-92 svg {
-  width: 118px;
+  width: 108px;
   height: 87px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 118px;
+    height: 87px;
+  }
 }
 
 .filed-93 {
-  top: 364px;
-  left: 602px;
+  top: 326px;
+  left: 607px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 364px;
+    left: 602px;
+  }
 }
 .filed-93 svg {
-  width: 119px;
+  width: 109px;
   height: 85px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 119px;
+    height: 85px;
+  }
 }
 
 .filed-94 {
-  top: 343px;
-  left: 663px;
+  top: 306px;
+  left: 664px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 343px;
+    left: 663px;
+  }
 }
 .filed-94 svg {
-  width: 140px;
+  width: 130px;
   height: 89px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 140px;
+    height: 89px;
+  }
 }
 
 .filed-95 {
-  top: 178px;
-  left: 926px;
+  top: 162px;
+  left: 920px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 178px;
+    left: 926px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 143px;
+    left: 887px;
+  }
 }
 .filed-95 svg {
-  width: 104px;
+  width: 98px;
   height: 53px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 104px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 88px;
+  }
 }
 
 .filed-96 {
-  top: 166px;
-  left: 965px;
+  top: 151px;
+  left: 960px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 166px;
+    left: 965px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 133px;
+    left: 923px;
+  }
 }
 .filed-96 svg {
-  width: 107px;
+  width: 101px;
   height: 50px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 107px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 90px;
+  }
 }
 
 .filed-97 {
-  top: 150px;
-  left: 997px;
+  top: 139px;
+  left: 995px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 150px;
+    left: 997px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 120px;
+    left: 950px;
+  }
 }
 .filed-97 svg {
-  width: 109px;
+  width: 103px;
   height: 55px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 109px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 92px;
+  }
 }
 
 .filed-98 {
-  top: 137px;
-  left: 1033px;
+  top: 128px;
+  left: 1032px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 137px;
+    left: 1033px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 110px;
+    left: 981px;
+  }
 }
 .filed-98 svg {
-  width: 120px;
+  width: 118px;
   height: 57px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 120px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 94px;
+  }
 }
 
 .filed-99 {
-  top: 130px;
-  left: 1063px;
+  top: 124px;
+  left: 1061px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 130px;
+    left: 1063px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 106px;
+    left: 1004px;
+  }
 }
 .filed-99 svg {
-  width: 90px;
+  width: 92px;
   height: 57px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 90px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 72px;
+  }
 }
 
 .filed-100 {
-  top: 520px;
-  left: 365px;
+  top: 463px;
+  left: 368px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 520px;
+    left: 365px;
+  }
 }
 .filed-100 svg {
-  width: 113px;
+  width: 108px;
   height: 110px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 113px;
+    height: 110px;
+  }
 }
 
 .filed-101 {
-  top: 500px;
+  top: 445px;
   left: 433px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 500px;
+    left: 433px;
+  }
 }
 .filed-101 svg {
-  width: 120px;
+  width: 114px;
   height: 108px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 120px;
+    height: 108px;
+  }
 }
 
 .filed-102 {
-  top: 483px;
-  left: 503px;
+  top: 428px;
+  left: 502px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 483px;
+    left: 503px;
+  }
 }
 .filed-102 svg {
-  width: 124px;
+  width: 119px;
   height: 101px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 124px;
+    height: 101px;
+  }
 }
 
 .filed-103 {
-  top: 463px;
-  left: 572px;
+  top: 409px;
+  left: 570px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 463px;
+    left: 572px;
+  }
 }
 .filed-103 svg {
-  width: 128px;
+  width: 122px;
   height: 98px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 128px;
+    height: 98px;
+  }
 }
 
 .filed-104 {
-  top: 444px;
-  left: 644px;
+  top: 391px;
+  left: 640px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 444px;
+    left: 644px;
+  }
 }
 .filed-104 svg {
-  width: 124px;
+  width: 120px;
   height: 97px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 124px;
+    height: 97px;
+  }
 }
 
 .filed-105 {
-  top: 426px;
-  left: 711px;
+  top: 373px;
+  left: 708px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 426px;
+    left: 711px;
+  }
 }
 .filed-105 svg {
-  width: 122px;
+  width: 118px;
   height: 94px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 122px;
+    height: 94px;
+  }
 }
 
 .filed-106 {
-  top: 403px;
+  top: 350px;
   left: 768px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 403px;
+    left: 768px;
+  }
 }
 .filed-106 svg {
-  width: 147px;
+  width: 140px;
   height: 129px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 147px;
+    height: 129px;
+  }
 }
 
 .filed-107 {
-  top: 142px;
+  top: 136px;
   left: 1150px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 142px;
+    left: 1150px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 116px;
+    left: 1072px;
+  }
 }
 .filed-107 svg {
-  width: 63px;
+  width: 60px;
   height: 58px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 63px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 55px;
+  }
 }
 
 .filed-108 {
-  top: 153px;
-  left: 1198px;
+  top: 147px;
+  left: 1196px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 153px;
+    left: 1198px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 126px;
+    left: 1114px;
+  }
 }
 .filed-108 svg {
-  width: 72px;
+  width: 70px;
   height: 60px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 72px;
+    height: 60px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 65px;
+  }
 }
 
 .filed-109 {
-  top: 158px;
-  left: 1261px;
+  top: 152px;
+  left: 1258px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 158px;
+    left: 1261px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 130px;
+    left: 1172px;
+  }
 }
 .filed-109 svg {
-  width: 93px;
+  width: 90px;
   height: 65px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 93px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 83px;
+  }
 }
 
 .filed-110 {
-  top: 128px;
-  left: 1248px;
+  top: 122px;
+  left: 1246px;
+  @media screen and (width: 1920px)  and (height: 1080px){
+    top: 128px;
+    left: 1248px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 105px;
+    left: 1166px;
+  }
 }
 .filed-110 svg {
-  width: 94px;
+  width: 90px;
   height: 41px;
+  @media screen and (width: 1920px)  and (height: 1080px){
+    width: 94px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 80px;
+  }
 }
 
 .filed-111 {
-  top: 418px;
-  left: 908px;
+  top: 370px;
+  left: 902px;
+  @media screen and (width: 1920px)  and (height: 1080px){
+    top: 418px;
+    left: 908px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 340px;
+    left: 874px;
+  }
 }
 .filed-111 svg {
-  width: 145px;
+  width: 130px;
   height: 111px;
+  @media screen and (width: 1920px)  and (height: 1080px){
+    width: 145px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 118px;
+  }
 }
 
 .filed-112 {
-  top: 453px;
-  left: 905px;
+  top: 400px;
+  left: 900px;
+  @media screen and (width: 1920px)  and (height: 1080px){
+    top: 453px;
+    left: 905px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 368px;
+    left: 871px;
+  }
 }
 .filed-112 svg {
-  width: 206px;
+  width: 186px;
   height: 105px;
+  @media screen and (width: 1920px)  and (height: 1080px){
+    width: 206px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 168px;
+  }
 }
 
 .filed-113 {
-  top: 488px;
-  left: 984px;
+  top: 432px;
+  left: 976px;
+  @media screen and (width: 1920px)  and (height: 1080px){
+    top: 488px;
+    left: 984px;
+  }
 }
 .filed-113 svg {
-  width: 186px;
+  width: 164px;
   height: 98px;
+  @media screen and (width: 1920px)  and (height: 1080px){
+    width: 186px;
+    height: 98px;
+  }
 }
 
 .filed-114 {
-  top: 526px;
-  left: 1068px;
+  top: 464px;
+  left: 1050px;
+  @media screen and (width: 1920px)  and (height: 1080px){
+    top: 526px;
+    left: 1068px;
+  }
 }
 .filed-114 svg {
-  width: 180px;
+  width: 160px;
   height: 106px;
+  @media screen and (width: 1920px)  and (height: 1080px){
+    width: 180px;
+    height: 106px;
+  }
 }
 
 .filed-115 {
-  top: 166px;
-  left: 643px;
+  top: 156px;
+  left: 638px;
+  @media screen and (width: 1920px)  and (height: 1080px){
+    top: 166px;
+    left: 643px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    top: 138px;
+    left: 634px;
+  }
 }
 .filed-115 svg {
   width: 80px;
   height: 47px;
+  @media screen and (width: 1920px)  and (height: 1080px){
+    width: 80px;
+    height: 47px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    width: 75px;
+  }
 }
 
 .filed-116 {
-  top: 145px;
-  left: 680px;
+  top: 135px;
+  left: 677px;
+  @media screen and (width: 1920px)  and (height: 1080px){
+    top: 145px;
+    left: 680px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    top: 120px;
+    left: 670px;
+  }
 }
 .filed-116 svg {
-  width: 84px;
+  width: 82px;
   height: 56px;
+  @media screen and (width: 1920px)  and (height: 1080px){
+    width: 84px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    width: 75px;
+  }
 }
 
 .filed-117 {
-  top: 132px;
-  left: 723px;
+  top: 123px;
+  left: 721px;
+  @media screen and (width: 1920px)  and (height: 1080px){
+    top: 132px;
+    left: 723px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    top: 109px;
+    left: 710px;
+  }
 }
 .filed-117 svg {
   width: 82px;
   height: 53px;
+  @media screen and (width: 1920px)  and (height: 1080px){
+    width: 82px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    width: 74px;
+  }
 }
 
 .filed-118 {
-  top: 121px;
-  left: 760px;
+  top: 112px;
+  left: 758px;
+  @media screen and (width: 1920px)  and (height: 1080px){
+    top: 121px;
+    left: 760px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    top: 100px;
+    left: 742px;
+  }
 }
 .filed-118 svg {
   width: 82px;
   height: 50px;
+  @media screen and (width: 1920px)  and (height: 1080px){
+    width: 82px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    width: 74px;
+  }
 }
 
 .filed-119 {
-  top: 113px;
-  left: 791px;
+  top: 104px;
+  left: 788px;
+  @media screen and (width: 1920px)  and (height: 1080px){
+    top: 113px;
+    left: 791px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    top: 92px;
+    left: 770px;
+  }
 }
 .filed-119 svg {
-  width: 79px;
+  width: 82px;
   height: 45px;
+  @media screen and (width: 1920px)  and (height: 1080px){
+    width: 79px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    width: 74px;
+  }
 }
 
 .filed-120 {
-  top: 100px;
-  left: 820px;
+  top: 91px;
+  left: 817px;
+  @media screen and (width: 1920px)  and (height: 1080px){
+    top: 100px;
+    left: 820px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    top:80px;
+    left: 798px;
+  }
 }
 .filed-120 svg {
-  width: 92px;
+  width: 94px;
   height: 48px;
+  @media screen and (width: 1920px)  and (height: 1080px){
+    width: 92px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    width: 84px;
+  }
 }
 
 .filed-121 {
-  top: 90px;
-  left: 861px;
+  top: 82px;
+  left: 860px;
+  @media screen and (width: 1920px)  and (height: 1080px){
+    top: 90px;
+    left: 861px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    top: 71px;
+    left: 836px;
+  }
 }
 .filed-121 svg {
-  width: 82px;
+  width: 81px;
   height: 44px;
+  @media screen and (width: 1920px)  and (height: 1080px){
+    width: 82px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    width: 72px;
+  }
 }
 
 .filed-122 {
-  top: 70px;
+  top: 64px;
   left: 888px;
+  @media screen and (width: 1920px)  and (height: 1080px){
+    top: 70px;
+    left: 888px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    top: 55px;
+    left: 860px;
+  }
 }
 .filed-122 svg {
-  width: 94px;
+  width: 88px;
   height: 53px;
+  @media screen and (width: 1920px)  and (height: 1080px){
+    width: 94px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    width: 76px;
+  }
 }
 
 .filed-123 {
-  top: 50px;
-  left: 918px;
+  top: 46px;
+  left: 917px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 50px;
+    left: 918px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    top: 38px;
+    left: 886px;
+  }
 }
 .filed-123 svg {
-  width: 94px;
+  width: 88px;
   height: 60px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 94px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    width: 76px;
+  }
 }
 
 .filed-124 {
-  top: 38px;
-  left: 956px;
+  top: 35px;
+  left: 954px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 38px;
+    left: 956px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    top: 28px;
+    left: 916px;
+  }
 }
 .filed-124 svg {
-  width: 90px;
+  width: 84px;
   height: 60px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 90px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    width: 74px;
+  }
 }
 
 .filed-125 {
-  top: 24px;
-  left: 976px;
+  top: 23px;
+  left: 971px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 24px;
+    left: 976px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    top: 18px;
+    left: 932px;
+  }
 }
 .filed-125 svg {
-  width: 100px;
+  width: 93px;
   height: 62px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 100px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    width: 80px;
+  }
 }
 
 .filed-126 {
-  top: 13px;
-  left: 1009px;
+  top: 14px;
+  left: 1003px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 13px;
+    left: 1009px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    top: 10px;
+    left: 958px;
+  }
 }
 .filed-126 svg {
-  width: 98px;
+  width: 92px;
   height: 62px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 98px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    width: 80px;
+  }
 }
 
 .filed-127 {
-  top: 11px;
-  left: 1034px;
+  top: 13px;
+  left: 1028px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 11px;
+    left: 1034px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    top: 9px;
+    left: 980px;
+  }
 }
 .filed-127 svg {
-  width: 98px;
+  width: 92px;
   height: 55px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 98px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    width: 81px;
+  }
 }
 
 .filed-128 {
-  top: 10px;
-  left: 1058px;
+  top: 12px;
+  left: 1052px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 10px;
+    left: 1058px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    top: 8px;
+    left: 1000px;
+  }
 }
 .filed-128 svg {
-  width: 96px;
+  width: 92px;
   height: 45px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 96px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    width: 80px;
+  }
 }
 
 .filed-129 {
-  top: 11px;
-  left: 1100px;
+  top: 13px;
+  left: 1096px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 11px;
+    left: 1100px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    top: 8px;
+    left: 1038px;
+  }
 }
 .filed-129 svg {
-  width: 82px;
+  width: 76px;
   height: 37px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 82px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    width: 66px;
+  }
 }
 
 .filed-130 {
-  top: 4px;
-  left: 1132px;
+  top: 8px;
+  left: 1126px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 4px;
+    left: 1132px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    top: 4px;
+    left: 1068px;
+  }
 }
 .filed-130 svg {
-  width: 92px;
+  width: 86px;
   height: 32px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 92px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    width: 70px;
+  }
 }
 
 .filed-132 {
-  top: 52px;
+  top: 50px;
   left: 1112px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 52px;
+    left: 1112px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 47px;
+    left: 1052px;
+  }
 }
 .filed-132 svg {
   width: 108px;
   height: 39px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 108px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 94px;
+  }
 }
 
 .filed-133 {
-  top: 61px;
+  top: 59px;
   left: 1084px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 61px;
+    left: 1084px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 54px;
+    left: 1025px;
+  }
 }
 .filed-133 svg {
   width: 90px;
   height: 40px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 90px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 80px;
+  }
 }
 
 .filed-134 {
-  top: 70px;
+  top: 68px;
   left: 1052px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 70px;
+    left: 1052px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 60px;
+    left: 999px;
+  }
 }
 .filed-134 svg {
   width: 91px;
   height: 44px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 91px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 80px;
+  }
 }
 
 .filed-135 {
-  top: 81px;
+  top: 78px;
   left: 1018px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 81px;
+    left: 1018px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 70px;
+    left: 970px;
+  }
 }
 .filed-135 svg {
   width: 93px;
   height: 47px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 93px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 82px;
+  }
 }
 
 .filed-136 {
-  top: 94px;
+  top: 89px;
   left: 988px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 94px;
+    left: 988px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 80px;
+    left: 940px;
+  }
 }
 .filed-136 svg {
   width: 64px;
   height: 33px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 64px;
+    height: 33px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 56px;
+  }
 }
 
 .filed-137 {
-  top: 106px;
+  top: 101px;
   left: 956px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 106px;
+    left: 956px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 90px;
+    left: 912px;
+  }
 }
 .filed-137 svg {
   width: 64px;
   height: 33px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 64px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 58px;
+  }
 }
 
 .filed-137-1 {
-  top: 120px;
+  top: 115px;
   left: 984px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 120px;
+    left: 984px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 102px;
+    left: 937px;
+  }
 }
 .filed-137-1 svg {
   width: 65px;
   height: 32px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 65px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 56px;
+  }
 }
 
 .filed-138 {
-  top: 118px;
+  top: 113px;
   left: 923px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 118px;
+    left: 923px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 100px;
+    left: 882px;
+  }
 }
 .filed-138 svg {
   width: 66px;
   height: 32px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 66px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 58px;
+  }
 }
 
 .filed-138-1 {
-  top: 132px;
-  left: 953px;
+  top: 127px;
+  left: 952px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 132px;
+    left: 953px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 112px;
+    left: 904px;
+  }
 }
 .filed-138-1 svg {
-  width: 66px;
+  width: 67px;
   height: 31px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 66px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 58px;
+  }
 }
 
 .filed-139 {
-  top: 131px;
+  top: 126px;
   left: 886px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 131px;
+    left: 886px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 110px;
+    left: 850px;
+  }
 }
 .filed-139 svg {
   width: 74px;
   height: 33px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 74px;
+    height: 33px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 62px;
+  }
 }
 
 .filed-139-1 {
-  top: 144px;
-  left: 911px;
+  top: 139px;
+  left: 910px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 144px;
+    left: 911px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 122px;
+    left: 872px;
+  }
 }
 .filed-139-1 svg {
-  width: 72px;
+  width: 73px;
   height: 33px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 72px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 62px;
+  }
 }
 
 .filed-140 {
-  top: 144px;
+  top: 139px;
   left: 845px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 144px;
+    left: 845px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 120px;
+    left: 816px;
+  }
 }
 .filed-140 svg {
   width: 77px;
   height: 33px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 77px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 62px;
+  }
 }
 
 .filed-140-1 {
-  top: 158px;
+  top: 152px;
   left: 875px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 158px;
+    left: 875px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 132px;
+    left: 840px;
+  }
 }
 .filed-140-1 svg {
-  width: 76px;
+  width: 73px;
   height: 33px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 76px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 62px;
+  }
 }
 
 .filed-141 {
-  top: 158px;
+  top: 153px;
   left: 809px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 158px;
+    left: 809px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 132px;
+    left: 784px;
+  }
 }
 .filed-141 svg {
   width: 76px;
   height: 33px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 76px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 62px;
+  }
 }
 
 .filed-141-1 {
-  top: 173px;
+  top: 166px;
   left: 838px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 173px;
+    left: 838px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 144px;
+    left: 810px;
+  }
 }
 .filed-141-1 svg {
-  width: 76px;
+  width: 74px;
   height: 33px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 76px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 62px;
+  }
 }
 
 .filed-142 {
-  top: 172px;
+  top: 166px;
   left: 772px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 172px;
+    left: 772px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 143px;
+    left: 752px;
+  }
 }
 .filed-142 svg {
   width: 72px;
   height: 33px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 72px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 62px;
+  }
 }
 
 .filed-142-1 {
-  top: 187px;
+  top: 180px;
   left: 799px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 187px;
+    left: 799px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 155px;
+    left: 775px;
+  }
 }
 .filed-142-1 svg {
   width: 72px;
   height: 36px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 72px;
+    height: 36px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 60px;
+  }
 }
 
 .filed-143 {
-  top: 184px;
-  left: 733px;
+  top: 178px;
+  left: 735px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 184px;
+    left: 733px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 152px;
+    left: 718px;
+  }
 }
 .filed-143 svg {
-  width: 71px;
+  width: 70px;
   height: 40px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 71px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 62px;
+  }
 }
 
 .filed-143-1 {
-  top: 202px;
+  top: 195px;
   left: 762px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 202px;
+    left: 762px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 167px;
+    left: 743px;
+  }
 }
 .filed-143-1 svg {
-  width: 72px;
+  width: 70px;
   height: 39px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 72px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 60px;
+  }
 }
 
 .filed-144 {
-  top: 197px;
-  left: 692px;
+  top: 191px;
+  left: 694px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 197px;
+    left: 692px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    top: 163px;
+    left: 680px;
+  }
 }
 .filed-144 svg {
-  width: 73px;
+  width: 71px;
   height: 42px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 73px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    width: 64px;
+  }
 }
 
 .filed-144-1 {
-  top: 216px;
-  left: 724px;
+  top: 210px;
+  left: 725px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 216px;
+    left: 724px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 180px;
+    left: 708px;
+  }
 }
 .filed-144-1 svg {
-  width: 70px;
+  width: 69px;
   height: 39px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 70px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 60px;
+  }
 }
 
 .filed-145 {
-  top: 94px;
-  left: 1076px;
+  top: 92px;
+  left: 1074px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 94px;
+    left: 1076px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 80px;
+    left: 1018px;
+  }
 }
 .filed-145 svg {
   width: 92px;
   height: 44px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 92px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 82px;
+  }
 }
 
 .filed-146 {
-  top: 84px;
+  top: 80px;
   left: 1138px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 84px;
+    left: 1138px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 72px;
+    left: 1074px;
+  }
 }
 .filed-146 svg {
   width: 92px;
   height: 30px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 92px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 78px;
+  }
 }
 
 .filed-146-1 {
-  top: 107px;
-  left: 1012px;
+  top: 103px;
+  left: 1011px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 107px;
+    left: 1012px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 92px;
+    left: 960px;
+  }
 }
 .filed-146-1 svg {
   width: 70px;
   height: 32px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 70px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 60px;
+  }
 }
 
 .filed-147 {
-  top: 104px;
-  left: 1158px;
+  top: 100px;
+  left: 1156px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 104px;
+    left: 1158px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 90px;
+    left: 1090px;
+  }
 }
 .filed-147 svg {
   width: 84px;
   height: 29px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 84px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 70px;
+  }
 }
 
 .filed-148 {
-  top: 118px;
-  left: 1152px;
+  top: 115px;
+  left: 1150px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 118px;
+    left: 1152px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 100px;
+    left: 1086px;
+  }
 }
 .filed-148 svg {
   width: 100px;
   height: 37px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 100px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 80px;
+  }
 }
 
 .filed-149 {
-  top: 292px;
-  left: 868px;
+  top: 266px;
+  left: 870px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 292px;
+    left: 868px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 238px;
+    left: 842px;
+  }
 }
 .filed-149 svg {
-  width: 126px;
+  width: 122px;
   height: 67px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 126px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 112px;
+  }
 }
 
 .filed-150 {
-  top: 318px;
+  top: 290px;
   left: 912px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 318px;
+    left: 912px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 260px;
+    left: 878px;
+  }
 }
 .filed-150 svg {
-  width: 131px;
+  width: 128px;
   height: 71px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 131px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 118px;
+  }
 }
 
 .filed-151 {
-  top: 348px;
-  left: 964px;
+  top: 316px;
+  left: 960px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 348px;
+    left: 964px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 286px;
+    left: 924px;
+  }
 }
 .filed-151 svg {
-  width: 130px;
+  width: 128px;
   height: 72px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 130px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 116px;
+  }
 }
 
 .filed-152 {
-  top: 376px;
-  left: 1011px;
+  top: 344px;
+  left: 1008px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 376px;
+    left: 1011px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 310px;
+    left: 966px;
+  }
 }
 .filed-152 svg {
-  width: 136px;
+  width: 134px;
   height: 79px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 136px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 116px;
+  }
 }
 
 .filed-153 {
-  top: 406px;
-  left: 1062px;
+  top: 372px;
+  left: 1060px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 406px;
+    left: 1062px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 336px;
+    left: 1010px;
+  }
 }
 .filed-153 svg {
-  width: 141px;
+  width: 138px;
   height: 84px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 141px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 116px;
+  }
 }
 
 .filed-154 {
-  top: 440px;
+  top: 404px;
   left: 1112px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 440px;
+    left: 1112px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 362px;
+    left: 1052px;
+  }
 }
 .filed-154 svg {
-  width: 145px;
+  width: 140px;
   height: 87px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 145px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 118px;
+  }
 }
 
 .filed-155 {
-  top: 472px;
-  left: 1176px;
+  top: 432px;
+  left: 1173px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 472px;
+    left: 1176px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 386px;
+    left: 1104px;
+  }
 }
 .filed-155 svg {
-  width: 136px;
+  width: 130px;
   height: 103px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 136px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 112px;
+  }
 }
 
 .filed-156 {
-  top: 102px;
-  left: 1235px;
+  top: 96px;
+  left: 1233px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 102px;
+    left: 1235px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 82px;
+    left: 1154px;
+  }
 }
 .filed-156 svg {
-  width: 94px;
+  width: 90px;
   height: 32px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 94px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 80px;
+  }
 }
 
 .filed-157 {
-  top: 84px;
-  left: 1226px;
+  top: 80px;
+  left: 1224px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 84px;
+    left: 1226px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 68px;
+    left: 1147px;
+  }
 }
 .filed-157 svg {
-  width: 87px;
+  width: 82px;
   height: 24px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 87px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 72px;
+  }
 }
 
 .filed-158 {
-  top: 66px;
-  left: 1218px;
+  top: 64px;
+  left: 1217px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 66px;
+    left: 1218px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 54px;
+    left: 1140px;
+  }
 }
 .filed-158 svg {
-  width: 85px;
+  width: 80px;
   height: 23px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 85px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 70px;
+  }
 }
 
 .filed-159 {
-  top: 46px;
-  left: 1210px;
+  top: 44px;
+  left: 1208px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 46px;
+    left: 1210px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 36px;
+    left: 1134px;
+  }
 }
 .filed-159 svg {
-  width: 83px;
+  width: 78px;
   height: 31px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    width: 83px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 66px;
+  }
 }
 
 .filed-160 {
-  top: 34px;
-  left: 1204px;
+  top: 32px;
+  left: 1202px;
+  @media screen and (width: 1920px) and (height: 1080px){
+    top: 34px;
+    left: 1204px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 26px;
+    left: 1130px;
+  }
 }
 .filed-160 svg {
-  width: 76px;
+  width: 71px;
   height: 24px;
+  @media screen and (width: 1920px) and (height: 1080px) {
+    width: 76px;
+    height: 24px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 60px;
+  }
 }
 
 .filed-161 {
   top: 18px;
   left: 1199px;
+  @media screen and (width: 1920px) and (height: 1080px) {
+    top: 18px;
+    left: 1199px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    top: 13px;
+    left: 1126px;
+  }
 }
 .filed-161 svg {
-  width: 72px;
+  width: 67px;
   height: 27px;
+  @media screen and (width: 1920px) and (height: 1080px) {
+    width: 72px;
+    height: 27px;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1660px){
+    width: 57px;
+  }
 }
 /*end*/
