@@ -1341,7 +1341,7 @@ body {
   @media screen and (min-width: 1600px) and (max-width: 1660px) {
     .filed-57 {
       top: 226px;
-      left: 466px; } }
+      left: 454px; } }
 
 .filed-57 svg {
   width: 98px;
@@ -1360,14 +1360,20 @@ body {
     .filed-58 {
       top: 288px;
       left: 368px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-58 {
+      top: 236px;
+      left: 404px; } }
 
 .filed-58 svg {
   width: 98px;
   height: 73px; }
   @media screen and (width: 1920px) and (height: 1080px) {
     .filed-58 svg {
-      top: 288px;
-      left: 368px; } }
+      width: 102px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-58 svg {
+      width: 90px; } }
 
 .filed-59 {
   top: 274px;
@@ -1376,14 +1382,20 @@ body {
     .filed-59 {
       top: 300px;
       left: 306px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-59 {
+      top: 246px;
+      left: 352px; } }
 
 .filed-59 svg {
   width: 98px;
   height: 76px; }
   @media screen and (width: 1920px) and (height: 1080px) {
     .filed-59 svg {
-      width: 102px;
-      height: 76px; } }
+      width: 102px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-59 svg {
+      width: 90px; } }
 
 .filed-60 {
   top: 286px;
@@ -1392,14 +1404,20 @@ body {
     .filed-60 {
       top: 313px;
       left: 230px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-60 {
+      top: 256px;
+      left: 286px; } }
 
 .filed-60 svg {
   width: 110px;
   height: 77px; }
   @media screen and (width: 1920px) and (height: 1080px) {
     .filed-60 svg {
-      width: 114px;
-      height: 77px; } }
+      width: 114px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-60 svg {
+      width: 100px; } }
 
 .filed-61 {
   top: 106px;
@@ -1650,14 +1668,20 @@ body {
     .filed-73 {
       top: 303px;
       left: 620px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-73 {
+      top: 248px;
+      left: 622px; } }
 
 .filed-73 svg {
   width: 106px;
   height: 69px; }
   @media screen and (width: 1920px) and (height: 1080px) {
     .filed-73 svg {
-      width: 111px;
-      height: 69px; } }
+      width: 111px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-73 svg {
+      width: 98px; } }
 
 .filed-74 {
   top: 280px;
@@ -1666,14 +1690,20 @@ body {
     .filed-74 {
       top: 314px;
       left: 560px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-74 {
+      top: 257px;
+      left: 571px; } }
 
 .filed-74 svg {
   width: 104px;
   height: 74px; }
   @media screen and (width: 1920px) and (height: 1080px) {
     .filed-74 svg {
-      width: 109px;
-      height: 74px; } }
+      width: 109px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-74 svg {
+      width: 94px; } }
 
 .filed-75 {
   top: 294px;
@@ -1682,14 +1712,20 @@ body {
     .filed-75 {
       top: 328px;
       left: 500px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-75 {
+      top: 270px;
+      left: 521px; } }
 
 .filed-75 svg {
   width: 103px;
   height: 75px; }
   @media screen and (width: 1920px) and (height: 1080px) {
     .filed-75 svg {
-      width: 110px;
-      height: 75px; } }
+      width: 110px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-75 svg {
+      width: 93px; } }
 
 .filed-76 {
   top: 307px;
@@ -1698,14 +1734,20 @@ body {
     .filed-76 {
       top: 343px;
       left: 443px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-76 {
+      top: 282px;
+      left: 472px; } }
 
 .filed-76 svg {
   width: 96px;
   height: 78px; }
   @media screen and (width: 1920px) and (height: 1080px) {
     .filed-76 svg {
-      width: 102px;
-      height: 78px; } }
+      width: 102px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-76 svg {
+      width: 86px; } }
 
 .filed-77 {
   top: 319px;
@@ -1714,6 +1756,10 @@ body {
     .filed-77 {
       top: 357px;
       left: 383px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-77 {
+      top: 293px;
+      left: 418px; } }
 
 .filed-77 svg {
   width: 94px;
@@ -1722,6 +1768,9 @@ body {
     .filed-77 svg {
       width: 98px;
       height: 82px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-77 svg {
+      width: 84px; } }
 
 .filed-78 {
   top: 332px;
@@ -1730,14 +1779,20 @@ body {
     .filed-78 {
       top: 370px;
       left: 308px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-78 {
+      top: 304px;
+      left: 352px; } }
 
 .filed-78 svg {
   width: 108px;
   height: 86px; }
   @media screen and (width: 1920px) and (height: 1080px) {
     .filed-78 svg {
-      width: 111px;
-      height: 86px; } }
+      width: 111px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-78 svg {
+      width: 96px; } }
 
 .filed-79 {
   top: 347px;
@@ -1746,14 +1801,20 @@ body {
     .filed-79 {
       top: 385px;
       left: 245px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-79 {
+      top: 317px;
+      left: 296px; } }
 
 .filed-79 svg {
   width: 100px;
   height: 88px; }
   @media screen and (width: 1920px) and (height: 1080px) {
     .filed-79 svg {
-      width: 102px;
-      height: 88px; } }
+      width: 102px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-79 svg {
+      width: 88px; } }
 
 .filed-80 {
   top: 296px;
@@ -1938,14 +1999,20 @@ body {
     .filed-88 {
       top: 447px;
       left: 268px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-88 {
+      top: 368px;
+      left: 316px; } }
 
 .filed-88 svg {
   width: 100px;
   height: 100px; }
   @media screen and (width: 1920px) and (height: 1080px) {
     .filed-88 svg {
-      width: 112px;
-      height: 100px; } }
+      width: 112px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-88 svg {
+      width: 96px; } }
 
 .filed-89 {
   top: 388px;
@@ -1954,6 +2021,10 @@ body {
     .filed-89 {
       top: 430px;
       left: 343px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-89 {
+      top: 353px;
+      left: 380px; } }
 
 .filed-89 svg {
   width: 108px;
@@ -1962,6 +2033,9 @@ body {
     .filed-89 svg {
       width: 110px;
       height: 97px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-89 svg {
+      width: 96px; } }
 
 .filed-90 {
   top: 373px;
@@ -1970,14 +2044,20 @@ body {
     .filed-90 {
       top: 414px;
       left: 415px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-90 {
+      top: 340px;
+      left: 444px; } }
 
 .filed-90 svg {
   width: 102px;
   height: 92px; }
   @media screen and (width: 1920px) and (height: 1080px) {
     .filed-90 svg {
-      width: 109px;
-      height: 92px; } }
+      width: 109px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-90 svg {
+      width: 92px; } }
 
 .filed-91 {
   top: 356px;
@@ -1986,6 +2066,10 @@ body {
     .filed-91 {
       top: 396px;
       left: 475px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-91 {
+      top: 325px;
+      left: 498px; } }
 
 .filed-91 svg {
   width: 108px;
@@ -1994,6 +2078,9 @@ body {
     .filed-91 svg {
       width: 118px;
       height: 89px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-91 svg {
+      width: 99px; } }
 
 .filed-92 {
   top: 341px;
@@ -2002,14 +2089,20 @@ body {
     .filed-92 {
       top: 380px;
       left: 540px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-92 {
+      top: 312px;
+      left: 554px; } }
 
 .filed-92 svg {
   width: 108px;
   height: 87px; }
   @media screen and (width: 1920px) and (height: 1080px) {
     .filed-92 svg {
-      width: 118px;
-      height: 87px; } }
+      width: 118px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-92 svg {
+      width: 100px; } }
 
 .filed-93 {
   top: 326px;
@@ -2018,14 +2111,20 @@ body {
     .filed-93 {
       top: 364px;
       left: 602px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-93 {
+      top: 298px;
+      left: 610px; } }
 
 .filed-93 svg {
   width: 109px;
   height: 85px; }
   @media screen and (width: 1920px) and (height: 1080px) {
     .filed-93 svg {
-      width: 119px;
-      height: 85px; } }
+      width: 119px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-93 svg {
+      width: 100px; } }
 
 .filed-94 {
   top: 306px;
@@ -2034,14 +2133,20 @@ body {
     .filed-94 {
       top: 343px;
       left: 663px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-94 {
+      top: 280px;
+      left: 660px; } }
 
 .filed-94 svg {
   width: 130px;
   height: 89px; }
   @media screen and (width: 1920px) and (height: 1080px) {
     .filed-94 svg {
-      width: 140px;
-      height: 89px; } }
+      width: 140px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-94 svg {
+      width: 120px; } }
 
 .filed-95 {
   top: 162px;
@@ -2160,14 +2265,20 @@ body {
     .filed-100 {
       top: 520px;
       left: 365px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-100 {
+      top: 425px;
+      left: 396px; } }
 
 .filed-100 svg {
   width: 108px;
   height: 110px; }
   @media screen and (width: 1920px) and (height: 1080px) {
     .filed-100 svg {
-      width: 113px;
-      height: 110px; } }
+      width: 113px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-100 svg {
+      width: 98px; } }
 
 .filed-101 {
   top: 445px;
@@ -2176,14 +2287,20 @@ body {
     .filed-101 {
       top: 500px;
       left: 433px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-101 {
+      top: 408px;
+      left: 454px; } }
 
 .filed-101 svg {
   width: 114px;
   height: 108px; }
   @media screen and (width: 1920px) and (height: 1080px) {
     .filed-101 svg {
-      width: 120px;
-      height: 108px; } }
+      width: 120px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-101 svg {
+      width: 104px; } }
 
 .filed-102 {
   top: 428px;
@@ -2192,14 +2309,20 @@ body {
     .filed-102 {
       top: 483px;
       left: 503px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-102 {
+      top: 394px;
+      left: 514px; } }
 
 .filed-102 svg {
   width: 119px;
   height: 101px; }
   @media screen and (width: 1920px) and (height: 1080px) {
     .filed-102 svg {
-      width: 124px;
-      height: 101px; } }
+      width: 124px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-102 svg {
+      width: 109px; } }
 
 .filed-103 {
   top: 409px;
@@ -2208,14 +2331,20 @@ body {
     .filed-103 {
       top: 463px;
       left: 572px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-103 {
+      top: 377px;
+      left: 575px; } }
 
 .filed-103 svg {
   width: 122px;
   height: 98px; }
   @media screen and (width: 1920px) and (height: 1080px) {
     .filed-103 svg {
-      width: 128px;
-      height: 98px; } }
+      width: 128px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-103 svg {
+      width: 110px; } }
 
 .filed-104 {
   top: 391px;
@@ -2224,14 +2353,20 @@ body {
     .filed-104 {
       top: 444px;
       left: 644px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-104 {
+      top: 361px;
+      left: 636px; } }
 
 .filed-104 svg {
   width: 120px;
   height: 97px; }
   @media screen and (width: 1920px) and (height: 1080px) {
     .filed-104 svg {
-      width: 124px;
-      height: 97px; } }
+      width: 124px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-104 svg {
+      width: 110px; } }
 
 .filed-105 {
   top: 373px;
@@ -2240,14 +2375,20 @@ body {
     .filed-105 {
       top: 426px;
       left: 711px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-105 {
+      top: 346px;
+      left: 696px; } }
 
 .filed-105 svg {
   width: 118px;
   height: 94px; }
   @media screen and (width: 1920px) and (height: 1080px) {
     .filed-105 svg {
-      width: 122px;
-      height: 94px; } }
+      width: 122px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-105 svg {
+      width: 108px; } }
 
 .filed-106 {
   top: 350px;
@@ -2256,14 +2397,20 @@ body {
     .filed-106 {
       top: 403px;
       left: 768px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-106 {
+      top: 324px;
+      left: 750px; } }
 
 .filed-106 svg {
   width: 140px;
   height: 129px; }
   @media screen and (width: 1920px) and (height: 1080px) {
     .filed-106 svg {
-      width: 147px;
-      height: 129px; } }
+      width: 147px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-106 svg {
+      width: 128px; } }
 
 .filed-107 {
   top: 136px;
@@ -2405,14 +2552,20 @@ body {
     .filed-113 {
       top: 488px;
       left: 984px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-113 {
+      top: 398px;
+      left: 936px; } }
 
 .filed-113 svg {
   width: 164px;
   height: 98px; }
   @media screen and (width: 1920px) and (height: 1080px) {
     .filed-113 svg {
-      width: 186px;
-      height: 98px; } }
+      width: 186px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-113 svg {
+      width: 152px; } }
 
 .filed-114 {
   top: 464px;
@@ -2421,6 +2574,10 @@ body {
     .filed-114 {
       top: 526px;
       left: 1068px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-114 {
+      top: 429px;
+      left: 1005px; } }
 
 .filed-114 svg {
   width: 160px;
@@ -2429,6 +2586,9 @@ body {
     .filed-114 svg {
       width: 180px;
       height: 106px; } }
+  @media screen and (min-width: 1600px) and (max-width: 1660px) {
+    .filed-114 svg {
+      width: 148px; } }
 
 .filed-115 {
   top: 156px;
