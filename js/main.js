@@ -19,4 +19,10 @@ $(document).ready(function () {
         }
     });
 
+    $('.field').on('mouseover', function (e) {
+        e.preventDefault();
+        $(this).find('.info-wrapper').addClass('info-wrapper--active');
+    });
+
 });
+
