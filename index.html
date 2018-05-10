@@ -3,23 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
-    <link href="css/city_map.css" rel="stylesheet"/>
-
+    <link href="css/style.css" rel="stylesheet"/>
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
 </head>
 <body>
 
 <div class="city-map" id="city-map">
 
     <!-- clouds, animation -->
-    <img src="img/cloud_1.png" class="map-cloud cloud--first" alt=""/>
-    <img src="img/cloud_2.png" class="map-cloud cloud--second" alt=""/>
-    <img src="img/cloud_2.png" class="map-cloud cloud--third" alt=""/>
-    <img src="img/cloud_3.png" class="map-cloud cloud--fourth" alt=""/>
-    <img src="img/cloud_4.png" class="map-cloud cloud--fifth" alt=""/>
-    <img src="img/cloud_5.png" class="map-cloud cloud--sixth" alt=""/>
+    <img src="template/img/cloud_1.png" class="map-cloud cloud--first" alt=""/>
+    <img src="template/img/cloud_2.png" class="map-cloud cloud--second" alt=""/>
+    <img src="template/img/cloud_3.png" class="map-cloud cloud--fourth" alt=""/>
+    <img src="template/img/cloud_4.png" class="map-cloud cloud--fifth" alt=""/>
+    <img src="template/img/cloud_5.png" class="map-cloud cloud--sixth" alt=""/>
     <!-- end -->
 
     <div class="map__container">
@@ -32,6 +36,66 @@
             <a href="#" class="map-btn map-btn--blue">% Акция</a>
         </footer>
     </div>
+
+    <!-- markers -->
+    <section class="marker__container parking">
+        <span class="marker-wrapper parking"></span>
+
+        <div class="marker__pop-up">
+            <img src="template/img/parking.png" class="marker-img" alt="" />
+            <h3 class="marker-caption">Гостевая парковка
+                на 20 автомобилей</h3>
+            <p class="marker-text">На въезде в поселок расположены: здание администрации и охраны, где будет находиться пункт контроля за инженерной инфраструктурой поселка, а так же гостевая парковка.</p>
+        </div>
+    </section>
+    <section class="marker__container police">
+        <span class="marker-wrapper police"></span>
+
+        <div class="marker__pop-up">
+            <img src="template/img/police.png" class="marker-img" alt="" />
+            <h3 class="marker-caption">пост охраны
+                и администрация</h3>
+            <p class="marker-text">На въезде в поселок расположены: здание администрации и охраны. Для обеспечения Вашего спокойствия въезд в поселок оборудован специализированным КПП, где организована пропускная система.</p>
+        </div>
+    </section>
+    <section class="marker__container cinema">
+        <span class="marker-wrapper cinema"></span>
+
+        <div class="marker__pop-up">
+            <img src="template/img/cinema.png" class="marker-img" alt="" />
+            <h3 class="marker-caption">Система видеонаблюдения</h3>
+            <p class="marker-text"> Установлена система видеонаблюдения с возможностью круглосуточного наблюдения подъездного пути, внутренних дорог и общественных зон.</p>
+        </div>
+    </section>
+    <section class="marker__container rest">
+        <span class="marker-wrapper rest"></span>
+
+        <div class="marker__pop-up">
+            <img src="template/img/rest.png" class="marker-img" alt="" />
+            <h3 class="marker-caption">береговая линия  протяженностью 450м</h3>
+            <p class="marker-text">Гранитная набережная и чистый песок позволит насладиться пляжными играми. Будут возведены декоративные мостики и беседки, раскинется сеть пешеходных дорожек и прогулочная зона с освещением. </p>
+        </div>
+    </section>
+    <section class="marker__container ship">
+        <span class="marker-wrapper ship"></span>
+
+        <div class="marker__pop-up">
+            <img src="template/img/ship.png" class="marker-img" alt="" />
+            <h3 class="marker-caption">собственный причал протяженностью 100м</h3>
+            <p class="marker-text">собственный причал протяженностью 100м</p>
+        </div>
+    </section>
+    <section class="marker__container plant">
+        <span class="marker-wrapper plant"></span>
+
+        <div class="marker__pop-up">
+            <img src="template/img/ship.png" class="marker-img" alt="" />
+            <h3 class="marker-caption">детская площадка</h3>
+            <p class="marker-text">Гранитная набережная, собственный причал протяженностью 100м с возможностью парковки 50 катеров, слип для спуска катеров на воду, форватер глубиной 2,5м, песчаный пляж.
+            </p>
+        </div>
+    </section>
+    <!-- end -->
 
     <span class="map-compass"></span>
 
@@ -1611,7 +1675,7 @@
 
     <!-- map image -->
     <div class="map-wrapper">
-        <img src="img/map-bg.png" class="map-image" alt=""/>
+        <img src="template/img/map-bg.jpg" class="map-image" alt=""/>
     </div>
     <!-- end -->
 
